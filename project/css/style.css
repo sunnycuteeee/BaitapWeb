@@ -1,0 +1,54 @@
+
+/* Cai dat chung cho trang web */
+body {
+    background-color: #f4f7fb;
+    color: #263445;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 24px;
+}
+
+/* Tieu de chinh */
+h1 {
+    color: #174a7e;
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+/* Tieu de cap 2 */
+h2 {
+    color: #247ba0;
+    font-size: 28px;
+    margin-top: 28px;
+}
+
+/* Tieu de cap 3 */
+h3 {
+    color: #d97736;
+    font-size: 22px;
+}
+
+/* Doan van */
+p {
+    margin-bottom: 16px;
+}
+
+/* Hinh anh */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 16px 0;
+}
+
+/* Danh sach */
+ul {
+    padding-left: 28px;
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 8px;
+}
