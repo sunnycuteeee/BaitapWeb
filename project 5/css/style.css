@@ -1,0 +1,90 @@
+/* 1. Reset khoảng cách mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #f4f6f9;
+}
+
+/* 2. Header: nền tối, chữ trắng, căn giữa */
+header {
+  background-color: #1a252f;
+  color: #ffffff;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+/* 3. Thanh điều hướng (Nav) */
+nav {
+  background-color: #2c3e50;
+}
+
+nav ul {
+  list-style: none; /* Bỏ chấm tròn đầu dòng */
+  display: flex;     /* Dàn hàng ngang */
+  justify-content: center;
+}
+
+nav ul li a {
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 12px 24px;
+  transition: background-color 0.2s ease;
+}
+
+/* Hiệu ứng rê chuột và trang hiện tại */
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #34495e;
+  color: #3498db;
+}
+
+/* 4. Khung nội dung 2 cột: căn giữa, có max-width */
+.content-container {
+  display: flex;
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 0 16px;
+  gap: 20px;
+}
+
+/* Cột chính chiếm ~70% */
+main {
+  flex: 7;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 4px;
+}
+
+/* Cột phụ (aside) chiếm ~30% */
+aside {
+  flex: 3;
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 4px;
+}
+
+/* 5. Footer: màu nền khác header, chữ căn giữa */
+footer {
+  background-color: #111827;
+  color: #9ca3af;
+  text-align: center;
+  padding: 20px 16px;
+  margin-top: 32px;
+}
+
+footer a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
